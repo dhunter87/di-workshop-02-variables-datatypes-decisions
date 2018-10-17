@@ -57,29 +57,29 @@ happens.
 | Line                | Expected Result | Actual Result | Were you right? Why? |
 | ------------------- | --------------- | ------------- | -------------------- |
 | `2 + 2`             |     4           |       4       |    Right             |
-| `5 - 3`             |      2          |        2      |           right      |
-| `3 * 6`             |       18        |        18     |                      |
-| `10 / 2`            |         5       |           5   |                      |
-| `5 / 2`             |        2.5      |          2.5  |                      |
-| `5.0 / 2`           |   2.5           |     2.5       |                      |
-| `“hello” + “world”` |  hello world    |hello world    |                      |
-| `“Hello” - “world”` |        null     |    NaN        |                      |
-| `3 + “3”`           |      33         |       33      |                      |
-| `typeof “hello”`    |  string         |     string    |                      |
-| `typeof 13`         |   number        |         number|                      |
-| `typeof true`       |boolean          |   boolean     |                      |
-| `typeof 3 + 5`      |       number    |      number5  |                      |
-| `typeof (3 + 5)`    |      number     |      number   |                      |
-| `typeof (3 + “3”)`  |       string    |       string  |                      |
-| `3 == 3`            |    true         |        true   |                      |
-| `3 == 2`            |      false      |       false   |                      |
-| `typeof (3 == 3)`   |      boolean    |     boolean   |                      |
-| `3 != 3`            |      false      |       false   |                      |
-| `3 != 2`            |   true          |     true      |                      |
-| `3 == 1 + 2`        |   true          |         true  |                      |
-| `3 == 2 + 2`        |    false        |  false        |                      |
-| `3 < 2 + 2`         |     true        |   true        |                      |
-| `3 > 2 + 2`         |       false     |  false        |                      |
+| `5 - 3`             |      2          |        2      |    Right             |
+| `3 * 6`             |       18        |        18     |    Right             |
+| `10 / 2`            |         5       |           5   |    Right             |
+| `5 / 2`             |        2.5      |          2.5  |    Right             |
+| `5.0 / 2`           |   2.5           |     2.5       |    Right             |
+| `“hello” + “world”` |  hello world    |hello world    |    Right             |
+| `“Hello” - “world”` |        null     |    NaN        | No, never knew Null  |
+| `3 + “3”`           |      33         |       33      |   Right              |
+| `typeof “hello”`    |  string         |     string    |   Right              |
+| `typeof 13`         |   number        |         number|   Right              |
+| `typeof true`       |boolean          |   boolean     |   Right              |
+| `typeof 3 + 5`      |       number    |      number5  |   No                 |
+| `typeof (3 + 5)`    |      number     |      number   |   Right              |
+| `typeof (3 + “3”)`  |       string    |       string  |   Right              |
+| `3 == 3`            |    true         |        true   |   Right              |
+| `3 == 2`            |      false      |       false   |   Right              |
+| `typeof (3 == 3)`   |      boolean    |     boolean   |   Right              |
+| `3 != 3`            |      false      |       false   |   Right              |
+| `3 != 2`            |   true          |     true      |   Right              |
+| `3 == 1 + 2`        |   true          |         true  |   Right              |
+| `3 == 2 + 2`        |    false        |  false        |   Right              |
+| `3 < 2 + 2`         |     true        |   true        |   Right              |
+| `3 > 2 + 2`         |       false     |  false        |   Right r            |
 
 ## Task 2
 
