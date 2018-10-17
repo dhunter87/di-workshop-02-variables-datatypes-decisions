@@ -87,7 +87,7 @@ Create a new sketch. Add a folder in this project called `sketch`, and copy the
 `index.html` and `sketch.js` from one of your Workshop 1 sketches into the new
 folder. Open your sketch in the browser to check it's working, then delete
 whatever's in `sketch.js`. Replace it with the following:
-
+git commit
 ```js
 function setup() {
   createCanvas(400, 200)
@@ -120,10 +120,17 @@ rect(position, 0, 10, 10)
 Run the sketch, and make notes below each of these questions:
 
 1. What happens?
+the value of position changes each time the draw function is executed, which makes the rectangle move position on the screen
+
 2. Why?
+the position value is one of the rectangles co-ordinates.
+
 3. What happens if you change 1 to a larger or smaller number?
+the position changes more rapidly
 4. Why?
-5. What about a negative number?
+because the value of position changes at a hight(or lower) rate.
+
+5. What about a negative number? the value of position decreases and the rectangle moves in the opposite direction.
 
 Add this line at the bottom of `draw`:
 
@@ -133,6 +140,7 @@ console.log('The position is ' + position)
 
 Open up the browser console again (right click -> inspect element -> console)
 and see what happens. **Why?**
+prints the value of position each time it changes
 
 Add this line at the top of your program. Add your name!
 
@@ -148,6 +156,7 @@ text('My name is' + name, 10, 30)
 
 **What happens and why? Why isn’t there a space between the word ‘name’ and your
 name? Can you add one?**
+the text fuction prints whatever is within the brackets to the screen, it printed what was inside the speech marks + the value of name.  the reason there is no space is because its just added the two string together. space cvreated by adding a space after "is".
 
 Add this line to the top of your sketch:
 
@@ -180,9 +189,9 @@ if (moving) {
 
 **Complete these tasks:**
 
-1. Make the square bounce off the edges of the window
+1. Make the square bounce off the edges of the window - DONE
 2. Count the number of times the square has bounced, and show it on screen.
-   What’s the most appropriate data type for storing the count?
+   What’s the most appropriate data type for storing the count? - DONE
 
 ## Task 3
 
