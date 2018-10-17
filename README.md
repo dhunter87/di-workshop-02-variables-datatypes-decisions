@@ -120,17 +120,17 @@ rect(position, 0, 10, 10)
 Run the sketch, and make notes below each of these questions:
 
 1. What happens?
-the value of position changes each time the draw function is executed, which makes the rectangle move position on the screen
+the value of position changes each time the draw function is executed, which makes the rectangle move position on the screen!
 
 2. Why?
-the position value is one of the rectangles co-ordinates.
+the position value is one of the rectangles co-ordinates!
 
 3. What happens if you change 1 to a larger or smaller number?
-the position changes more rapidly
+the position changes more rapidly!
 4. Why?
-because the value of position changes at a hight(or lower) rate.
+because the value of position changes at a hight(or lower) rate!
 
-5. What about a negative number? the value of position decreases and the rectangle moves in the opposite direction.
+5. What about a negative number? the value of position decreases and the rectangle moves in the opposite direction!
 
 Add this line at the bottom of `draw`:
 
