@@ -191,7 +191,7 @@ if (moving) {
 
 1. Make the square bounce off the edges of the window - DONE
 2. Count the number of times the square has bounced, and show it on screen.
-   What’s the most appropriate data type for storing the count? - DONE
+   What’s the most appropriate data type for storing the count? - DONE - integer
 
 ## Task 3
 
